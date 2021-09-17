@@ -13,8 +13,8 @@ spec:
         app: service-app
     spec:
       containers:
-        - name: springboot
-          image: juanantoniorr06/kubernetes:service-app
+        - name: springboot-service
+          image: juanantoniorr06/service-demo:service-demo
           ports:
             - containerPort: 8080
           env:
